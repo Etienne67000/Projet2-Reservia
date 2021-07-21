@@ -3,6 +3,10 @@
 html,body {
   font-family: Raleway, Arial, Helvetica, sans-serif;
 }
+.container-main {
+  width: 1400px;
+  margin: auto;
+}
 .flexCentre {
   display: flex;
   justify-content: center;
@@ -90,7 +94,6 @@ html,body {
 }
 .bordureNav:hover > a {
   color: #0065fc;
-
 }
 .marglogo {
   margin-bottom: 7px;
@@ -109,9 +112,9 @@ html,body {
 .recherche {
   height: 50px;
   width: 230px;
-  font-size: 18px;
+  font-size: 14px;
   color: black;
-  font-weight: bold;
+  font-weight: 600;
 }
 .iconSize {
   height: 50px;
@@ -124,6 +127,7 @@ html,body {
   color: white;
   cursor: pointer;
   border-radius: 0 10px 10px 0;
+  font-weight: 600;
 }
 .buttonSearch:hover {
   color: #0065fc;
@@ -150,11 +154,17 @@ html,body {
   margin-right: 20px;
 }
 .filtresTexteIcons:hover > .filtresTexte {
-  color: #0065fc;
+  color: #fff;
+  
+}
+.filtresTexteIcons:hover {
+  cursor: pointer;
+  background-color: #0065fc;
 }
 .filtresTexteIcons:hover > .filtresIcons {
-  color: white;
-  background-color: #0065fc;
+  color: #0065fc;
+  background-color: #fff;
+  border: 1px solid #0065fc;
 }
 .filtresTexte {
   height: 50px;
@@ -319,6 +329,9 @@ html,body {
   width: 35%;
   height: 160px;
   border-radius: 15px 0 0 15px;
+}
+.wrapPopulaire {
+  padding: 1em;
 }
 /* Activités à Marseille */
 
