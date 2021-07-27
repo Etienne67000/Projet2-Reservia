@@ -12,20 +12,18 @@
         <title>Reservia</title>
     </head>
     <body>
-        <div class="container-main">
             <header>
                 <nav class="sizeNav">
                     <div class="sizeLiens flexBetween">
                         <div>
                             <img class="marginlogo" src="images/logo/Reservia.svg" alt="Logo Reservia" width="120px" height="50px" />
                         </div>
-                        
                             <!--j'ai rajouter une div pour englober les deux liens hebrgements et activités-->
                             <div class="sizeLien12 flexCentre">
-                            <div class="sizeLien flexCentre bordureNav">
+                            <div class="sizeLien sizeLienMobile flexCentre bordureNav">
                             <a class="colorLien2 decorationNone" href="#hebergements">Hébergements</a>
                             </div>
-                            <div class="sizeLien flexCentre bordureNav">
+                            <div class="sizeLien sizeLienMobile flexCentre bordureNav">
                             <a class="colorLien2 decorationNone" href="#activites">Activités</a>
                             </div>
                             </div>
@@ -33,7 +31,7 @@
                             <a class="texteGras colorBleu decorationNone" href="#">S'inscrire</a>
                             </div>
                     </div>
-                    </nav>
+                </nav>
             </header>
             <section>
                 <div>
@@ -48,7 +46,10 @@
                     <div class="recherche">
                     <input class="recherche flexCentre bordureNone paddingSearch" type="search" value="Marseille , France" />
                     </div>
-                    <div class="backBleu flexCentre buttonSearch">Rechercher</div>
+                    <div class="backBleu flexCentre buttonSearch">
+                    <span class="mobileNone">Rechercher</span>
+                    <span class="desktopNone"><i class="fas fa-search"></i></span>
+                    </div> 
                 </div>
                 <div class="mobileFiltreWrap filtres margFiltres">
                     <div class="margFiltresTitre"><h3>Filtres</h3></div>
@@ -261,7 +262,6 @@
             </div>
                 </div>
             </section>
-        </div>
         <footer class="backGris">
             <div class="container-main">
             <div class="footer flexBetween">
