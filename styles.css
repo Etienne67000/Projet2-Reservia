@@ -600,4 +600,7 @@ html,body {
   .mobileNone {
     display: none;
   }
+  .blocHebergements {
+    background-color: #fff;
+  }
 }
