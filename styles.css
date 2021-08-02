@@ -229,6 +229,8 @@ html,body {
   background-color: white;
   padding: 1%;
   border-radius: 20px;
+  /* j'ai rajouter une box poyur voir les cartes en version mobile et desktop */
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 .cubeHebergements:hover {
   cursor: pointer;
@@ -472,7 +474,7 @@ html,body {
     margin-top: 0;
   }
 }
-@media screen and (max-width:990px) {
+@media only screen and (max-width: 992px){
   .mobileFiltreWrap {
     flex-direction: column;
     align-items: flex-start;
@@ -486,9 +488,12 @@ html,body {
   }
   .blocPopulaires {
     flex: none;
-    width: 90%;
+    width:  90%;
     margin-left: 0;
     padding: 5%;
+  }
+  .cubePopulaires {
+    width: 100%;
   }
   .blocHebergements {
     flex: none;
@@ -496,6 +501,11 @@ html,body {
     margin-right: 0;
     margin-top: 50px;
     padding: 5%;
+  }
+  .blocPopulaires .flexColumnAround {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
   }
 }
 @media screen and (max-width: 770px) {
@@ -602,5 +612,35 @@ html,body {
   }
   .blocHebergements {
     background-color: #fff;
+  }
+  .margFiltres {
+    padding-left: 5%;
+  }
+  .mobileEconomiques {
+    margin-right: 5px;
+  }
+  .mobileFamiliales {
+    margin-right: 0;
+  }
+  .filtresTexte {
+    padding: 10px;
+    padding-right: 10px;
+  }
+  .info {
+    padding-left: 5%;
+  }
+  .blocPopulaires {
+    border-radius: 0;
+  }
+  .mobileTitreParagraphe {
+    padding-left: 5%;
+  }
+  .blocActivites {
+    padding: 5%;
+    width: 90%;
+  }
+  html,body {
+    margin: 0;
+    padding: 0;
   }
 }
