@@ -239,6 +239,9 @@ html,body {
 .cubeDetailsHebergements {
   width: 90%;
 }
+.cubeDetailsHebergements h3, p {
+  margin-bottom: 20px;
+}
 .imgHebergements1 {
   background-image: url("images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
   background-size: cover;
@@ -310,6 +313,13 @@ html,body {
 .cubeDetailsPopulaires {
   width: 60%;
   padding-left: 5%;
+}
+.cubeDetailsPopulaires h3, p {
+  margin-top: 0;
+}
+.cubeDetailsPopulaires > div {
+  margin-top: 60px;
+  margin-bottom: 0;
 }
 .imgPopulaires1 {
   background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
@@ -431,7 +441,6 @@ html,body {
   border-radius: 15px 15px 0 0;
 }
 
-
 /*Footer*/
 
 .footer {
@@ -458,7 +467,7 @@ html,body {
 
 @media screen and (max-width: 1295px) {
   .container-main {
-    max-width: 1296px;
+    max-width: 1600px;
   }
   .sizeLien12 {
     margin-left: 35%;
@@ -481,6 +490,7 @@ html,body {
 @media only screen and (max-width: 992px){
   .container-main {
     max-width: 993px;
+    width: auto;
   }
   .mobileFiltreWrap {
     flex-direction: column;
@@ -518,6 +528,7 @@ html,body {
 @media screen and (max-width: 770px) {
   .container-main {
     max-width: 771px;
+    width: auto;
   }
   .sizeLiens {
     width: 90%;
@@ -579,6 +590,7 @@ html,body {
 @media screen and (max-width:600px) {
   .container-main {
     max-width: 601px;
+    width: auto;
   }
   .sizeLien {
     flex-direction: row;
