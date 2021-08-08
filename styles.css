@@ -457,6 +457,9 @@ html,body {
 /*Partie Responsive */
 
 @media screen and (max-width: 1295px) {
+  .container-main {
+    max-width: 1296px;
+  }
   .sizeLien12 {
     margin-left: 35%;
   }
@@ -476,6 +479,9 @@ html,body {
   }
 }
 @media only screen and (max-width: 992px){
+  .container-main {
+    max-width: 993px;
+  }
   .mobileFiltreWrap {
     flex-direction: column;
     align-items: flex-start;
@@ -510,6 +516,9 @@ html,body {
   }
 }
 @media screen and (max-width: 770px) {
+  .container-main {
+    max-width: 771px;
+  }
   .sizeLiens {
     width: 90%;
   }
@@ -568,6 +577,9 @@ html,body {
   }
 }
 @media screen and (max-width:600px) {
+  .container-main {
+    max-width: 601px;
+  }
   .sizeLien {
     flex-direction: row;
   }
