@@ -28,3 +28,6 @@ L'objectif est d'intégrer une maquette d'un site de planification de vacances a
 
 ##Notes sur la réalisation
 - J'ai utilis Visual Studio Code pour l'intégration .
+- J'ai utilisé Flexbox
+-  J'ai utilisé les Medias Queries
+-  J'ai utilisé le HTML5 et le CSS3
