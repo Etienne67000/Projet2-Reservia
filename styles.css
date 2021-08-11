@@ -114,9 +114,9 @@ html,body {
 .recherche {
     height: 50px;
     width: 230px;
-    font-size: 18px;
+    font-size: 14px;
     color: black;
-    font-weight: bold;
+    font-weight: 600;
   }
 .tailleIcon {
     height: 50px;
@@ -466,7 +466,7 @@ html,body {
 
 @media only screen and (min-width: 1201px) and (max-width: 1400px) {
   .container-main {
-    max-width: 1600px;
+    max-width: 1400px;
   }
     .tailleLiensHA {
         margin-left: 60%;
@@ -477,11 +477,11 @@ html,body {
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .container-main {
-    max-width: 993px;
+    max-width: 1200px;
     width: auto;
   }
     .tailleLiensHA {
-        margin-left: 35%;
+        margin-left: 55%;
     }
     .carteHebergement {
         min-height: 150px;
@@ -501,7 +501,7 @@ html,body {
 
 @media only screen and (min-width: 771px) and (max-width: 991px) {
   .container-main {
-    max-width: 771px;
+    max-width: 991px;
     width: auto;
   }
     .tailleLiensHA {
@@ -545,7 +545,7 @@ html,body {
     width: 100%;
 }
     .tailleLiensHA {
-        margin-left: 20%;
+        margin-left: 35%;
     }
     .filtresWrap {
         flex-direction: column;
