@@ -64,6 +64,9 @@ html,body {
 .tailleLiens {
     width: 100%;
   }
+.tailleLiens > .flexBetween {
+    justify-content: none;
+}
 .tailleLiensHA {
     margin-left: 60%;
 }
