@@ -459,10 +459,10 @@ html,body {
 
 @media only screen and (min-width: 1401px) {
   .container-main {
-    max-width: 1600px;
+    max-width: 1401px;
   }
     .tailleLiensHA {
-        margin-left: 60%;
+        margin-left: 67%;
     }
 
 }
