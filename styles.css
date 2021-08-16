@@ -214,17 +214,18 @@ html,body {
     height: 650px;
     margin-left: 20px;
     border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 .blocHebergements{
     padding-left: 20px;
     padding-right: 20px;
   }
-.bloc1 {
-    margin-bottom: 10px;
-  }
-.bloc2 {
-    margin-top: 10px;
-  }
+.parentBlocHebergements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 .carteHebergement {
     width: 30%;
     height: auto;
@@ -233,13 +234,15 @@ html,body {
     border-radius: 20px;
     /* j'ai rajouter une box pour voir les cartes en version mobile et desktop */
     box-shadow: 5px 5px 5px 1px #f2f2f2;
+    margin: 4px;
 }
 .carteHebergement:hover {
  cursor: pointer;
  transform: scale(1.1);
 }
-.detailsCarteHebergement {
-    width: 90%;
+.detailsCarteHebergement, p, h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 .imgHebergements1 {
     background-image: url("images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
@@ -292,9 +295,12 @@ html,body {
 
   /*Populaires*/
 
-.blocPopulaires {
-    padding-left: 20px;
-    padding-right: 20px;
+  .blocPopulaires > .flexAround {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
   }
   .blocPopulaires12 {
     margin-bottom: 22px;
@@ -312,6 +318,9 @@ html,body {
   .detailsCartePopulaires {
     width: 60%;
     padding-left: 5%;
+  }
+  .detailsCartePopulaires > div {
+    margin-top: 60px;
   }
   .imgPopulaires1 {
     background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
@@ -341,7 +350,7 @@ html,body {
 
   /* Activités à Marseille */
 
-.activites {
+  .activites {
     margin-top: 50px;
     margin-bottom: 50px;
   }
@@ -349,35 +358,35 @@ html,body {
     width: 100%;
     height: 600px;
   }
-.blocActivites2356 {
+  .blocActivites2356 {
     width: 23%;
     height: 600px;
   }
   /*Reglage bloc*/
-.carteActivites {
+  .carteActivites {
     width: 23%;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
   }
-.carteActivites:hover {
+  .carteActivites:hover {
     cursor: pointer;
     transform: scale(1.03);
   }
-.carteActivites2356 {
+  .carteActivites2356 {
     width: 100%;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
   }
-.carteActivites2356:hover {
+  .carteActivites2356:hover {
     cursor: pointer;
     transform: scale(1.03);
   }
   /*Fin reglage bloc */
 
-.hauteurTitre {
+  .hauteurTitre {
     height: 70px;
   }
-.titreActivites {
+  .titreActivites {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -435,7 +444,7 @@ html,body {
 
 /*Footer*/
 
-.footer {
+  .footer {
     height: 300px;
     margin-top: 100px;
   }
@@ -459,20 +468,20 @@ html,body {
 
 @media only screen and (min-width: 1401px) {
   .container-main {
-    max-width: 1401px;
+    width: 1401px;
+    margin: auto;
   }
-    .tailleLiensHA {
-        margin-left: 67%;
-    }
+
 
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1400px) {
   .container-main {
-    max-width: 1400px;
+    width: 1400px;
+    margin: auto;
   }
     .tailleLiensHA {
-        margin-left: 60%;
+        margin-left: 67%;
     }
 
 
@@ -480,8 +489,8 @@ html,body {
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .container-main {
-    max-width: 1200px;
-    width: auto;
+    width: 1200px;
+    margin: auto;
   }
     .tailleLiensHA {
         margin-left: 55%;
@@ -489,12 +498,16 @@ html,body {
     .carteHebergement {
         min-height: 150px;
     }
+    .parentBlocHebergements {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
     .tailleBlocHebergements {
         min-height: auto;
         padding: 20px;
     }
     .blocPopulaires {
-        min-height: auto;
         padding: 20px;
     }
     .tabletteTailleTitrePop {
@@ -503,9 +516,9 @@ html,body {
 }
 
 @media only screen and (min-width: 771px) and (max-width: 991px) {
-  .container-main {
-    max-width: 991px;
-    width: auto;
+    .container-main {
+        width: 991px;
+        margin: auto;
   }
     .tailleLiensHA {
         margin-left: 35%;
@@ -515,8 +528,10 @@ html,body {
         align-items: flex-start;
     }
     .blocPopulaires {
-        min-height: auto;
         padding: 20px;
+    }
+    .cartePopulaires {
+        width: 48%;
     }
     .tabletteTailleTitrePop {
         margin-top: 0%;
@@ -544,8 +559,9 @@ html,body {
 }
 
 @media only screen and (min-width: 601px) and (max-width: 771px) {
-  .container-main {
+   .container-main {
     width: 100%;
+    margin: auto;
 }
     .tailleLiensHA {
         margin-left: 35%;
@@ -555,8 +571,10 @@ html,body {
         align-items: flex-start;
     }
     .blocPopulaires {
-        min-height: auto;
         padding: 20px;
+    }
+    .cartePopulaires {
+        width: 100%;
     }
     .tabletteTailleTitrePop {
         margin-top: 0%;
@@ -565,6 +583,10 @@ html,body {
         flex-direction: column-reverse;
         width: 100%;
     }
+    #hebergements > .flexAround {
+        display: flex;
+        justify-content: space-around;
+      }
     .tailleBlocPopulaires {
         flex: none;
         width: 90%;
@@ -578,15 +600,9 @@ html,body {
         margin-top: 50px;
         padding: 5%;
     }
-    .blocHebergements {
-        height: auto;
-    }
-    .bloc1 {
+    .parentBlocHebergements {
         flex-direction: column;
         margin-bottom: 0;
-    }
-    .bloc2 {
-        flex-direction: column;
         margin-top: 0;
     }
     .carteHebergement {
@@ -598,7 +614,6 @@ html,body {
     }
     .blocActivites {
         flex-direction: column;
-        height: auto;
     }
     .carteActivites {
         width: 100%;
@@ -631,8 +646,9 @@ html,body {
 }
 
 @media only screen and (min-width: 580px) and (max-width: 600px) {
-  .container-main {
+   .container-main {
     width: 100%;
+    margin: auto;
 }
     .tailleLiens {
         flex-direction: row;
@@ -647,7 +663,6 @@ html,body {
         align-items: flex-start;
     }
     .blocPopulaires {
-        min-height: auto;
         padding: 20px;
     }
     .tabletteTailleTitrePop {
@@ -670,16 +685,10 @@ html,body {
         margin-top: 50px;
         padding: 5%;
     }
-    .blocHebergements {
-        height: auto;
-    }
-    .bloc1 {
+
+    .parentBlocHebergements {
         flex-direction: column;
-        margin-bottom: 0;
-    }
-    .bloc2 {
-        flex-direction: column;
-        margin-top: 0;
+        min-height: auto;
     }
     .carteHebergement {
         width: 100%;
@@ -814,7 +823,6 @@ html,body {
         align-items: flex-start;
     }
     .blocPopulaires {
-        min-height: auto;
         padding: 20px;
     }
     .tabletteTailleTitrePop {
@@ -824,6 +832,10 @@ html,body {
         flex-direction: column-reverse;
         width: 100%;
     }
+    #hebergements > .flexAround {
+        display: flex;
+        justify-content: space-around;
+      }
     .tailleBlocPopulaires {
         flex: none;
         width: 90%;
@@ -836,17 +848,11 @@ html,body {
         margin-right: 0;
         margin-top: 50px;
         padding: 5%;
+        height: 0%;
     }
-    .blocHebergements {
-        height: auto;
-    }
-    .bloc1 {
+    .parentBlocHebergements {
         flex-direction: column;
-        margin-bottom: 0;
-    }
-    .bloc2 {
-        flex-direction: column;
-        margin-top: 0;
+        min-height: auto;
     }
     .carteHebergement {
         width: 100%;
@@ -961,10 +967,11 @@ html,body {
     }
     .margeBlocFooter1 {
         margin-left: 0%;
+        margin-top: 50px;
     }
 }
 @media only screen and (max-width: 459px) {
-  .cubeHebergements {
+   .cubeHebergements {
     width: 100%;
     margin-bottom: 1em;
 }
@@ -981,7 +988,6 @@ html,body {
         align-items: flex-start;
     }
     .blocPopulaires {
-        min-height: auto;
         padding: 20px;
     }
     .tabletteTailleTitrePop {
@@ -991,6 +997,10 @@ html,body {
         flex-direction: column-reverse;
         width: 100%;
     }
+    #hebergements > .flexAround {
+        display: flex;
+        justify-content: space-around;
+      }
     .tailleBlocPopulaires {
         flex: none;
         width: 90%;
@@ -1003,17 +1013,10 @@ html,body {
         margin-right: 0;
         margin-top: 50px;
         padding: 5%;
+        height: 0%;
     }
-    .blocHebergements {
-        height: auto;
-    }
-    .bloc1 {
+    .parentBlocHebergements {
         flex-direction: column;
-        margin-bottom: 0;
-    }
-    .bloc2 {
-        flex-direction: column;
-        margin-top: 0;
     }
     .carteHebergement {
         width: 100%;
