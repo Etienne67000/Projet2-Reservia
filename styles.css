@@ -134,11 +134,13 @@ html,body {
     border-radius: 0 10px 10px 0;
     font-weight: 600;
   }
-  .buttonSearch:hover {
+.buttonSearch:hover {
     color: #0065fc;
     background-color: #deebff;
-  }
-
+}
+span > i {
+    color: #0065fc;
+}
 
   /*Filtres*/
 
@@ -471,8 +473,6 @@ html,body {
     width: 1401px;
     margin: auto;
   }
-
-
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1400px) {
@@ -480,11 +480,6 @@ html,body {
     width: 1400px;
     margin: auto;
   }
-    .tailleLiensHA {
-        margin-left: 67%;
-    }
-
-
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -492,9 +487,7 @@ html,body {
     width: 1200px;
     margin: auto;
   }
-    .tailleLiensHA {
-        margin-left: 55%;
-    }
+
     .carteHebergement {
         min-height: 150px;
     }
@@ -520,9 +513,6 @@ html,body {
         width: 991px;
         margin: auto;
   }
-    .tailleLiensHA {
-        margin-left: 35%;
-    }
     .filtresWrap {
         flex-direction: column;
         align-items: flex-start;
@@ -563,9 +553,6 @@ html,body {
     width: 100%;
     margin: auto;
 }
-    .tailleLiensHA {
-        margin-left: 35%;
-    }
     .filtresWrap {
         flex-direction: column;
         align-items: flex-start;
@@ -648,11 +635,6 @@ html,body {
     width: 100%;
     margin: auto;
 }
-    .tailleLiensHA {
-        order: 1;
-        width: 100%;
-        margin-left: 0%;
-    }
     .filtresWrap {
         flex-direction: column;
         align-items: flex-start;
@@ -802,16 +784,15 @@ html,body {
     .margeBlocFoot1 {
         margin-left: 0;
     }
+    span > i {
+        color: white;
+    }
 }
 @media only screen and (max-width: 579px) {
   .cubeHebergements {
     width: 47%;
     margin: .5em;
 }
-    .tailleLiensHA {
-        width: 100%;
-        margin-left: 0%;
-    }
     .filtresWrap {
         flex-direction: column;
         align-items: flex-start;
@@ -984,6 +965,9 @@ html,body {
         justify-content: center;
         flex-wrap: wrap;
         }
+    span > i {
+            color: white;
+    }
 }
 @media only screen and (max-width: 459px) {
    .cubeHebergements {
@@ -1157,4 +1141,7 @@ html,body {
         justify-content: center;
         flex-wrap: wrap;
         }
+    span > i {
+            color: white;
+    }
 }
