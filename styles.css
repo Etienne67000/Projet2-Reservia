@@ -64,9 +64,6 @@ html,body {
 .tailleLiens {
     width: 100%;
   }
-.tailleLiens > .flexBetween {
-    justify-content: none;
-}
 .dimensionLien:nth-child(2) {
     margin-left: 60%;
 }
@@ -464,6 +461,7 @@ span > i {
   }
   .margeLiensFooter {
       height: 30px;
+      margin-top: 10px;
   }
 
 /*RESPONSIVE*/
@@ -947,6 +945,9 @@ span > i {
     .margeBlocFooter1 {
         margin-left: 0;
     }
+    .margeLiensFooter {
+        margin-top: 0;
+    }
     .dimensionLien:nth-child(4) {
         order: 2;
         width: 40%;
@@ -1122,6 +1123,9 @@ span > i {
     }
     .margeBlocFooter1 {
         margin-left: 0%;
+    }
+    .margeLiensFooter {
+        margin-top: 0;
     }
     .dimensionLien:nth-child(4) {
         order: 2;
