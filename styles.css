@@ -67,7 +67,7 @@ html,body {
 .tailleLiens > .flexBetween {
     justify-content: none;
 }
-.tailleLiensHA {
+.dimensionLien:nth-child(2) {
     margin-left: 60%;
 }
 .dimensionLien {
@@ -588,13 +588,11 @@ html,body {
         justify-content: space-around;
       }
     .tailleBlocPopulaires {
-        flex: none;
         width: 90%;
         margin-left: 0%;
         padding: 5%;
     }
     .tailleBlocHebergements {
-        flex: none;
         width: 90%;
         margin-right: 0;
         margin-top: 50px;
@@ -635,8 +633,8 @@ html,body {
       height: 200px;
     }
     .footer {
-        flex-direction: column;
-        align-items: flex-start;
+        display: flex;
+        justify-content: space-between;
         height: auto;
         padding-left: 20px;
     }
@@ -650,9 +648,6 @@ html,body {
     width: 100%;
     margin: auto;
 }
-    .tailleLiens {
-        flex-direction: row;
-    }
     .tailleLiensHA {
         order: 1;
         width: 100%;
@@ -795,14 +790,17 @@ html,body {
     .mobileTitreParagraphes {
         padding-left: 5%;
     }
-    .footer {
+    footer .flexBetween {
         flex-direction: column;
+        justify-content: flex-start;
         align-items: flex-start;
-        height: auto;
-        padding-left: 20px;
+        padding: 1em;
     }
-    .margeBlocFooter1 {
-        margin-left: 0%;
+    .tailleBlocFooter {
+        height: auto;
+    }
+    .margeBlocFoot1 {
+        margin-left: 0;
     }
 }
 @media only screen and (max-width: 579px) {
@@ -810,11 +808,7 @@ html,body {
     width: 47%;
     margin: .5em;
 }
-    .tailleLiens {
-        flex-direction: row;
-    }
     .tailleLiensHA {
-        order: 1;
         width: 100%;
         margin-left: 0%;
     }
@@ -847,7 +841,7 @@ html,body {
         width: 90%;
         margin-right: 0;
         margin-top: 50px;
-        padding: 5%;
+        padding: 0;
         height: 0%;
     }
     .parentBlocHebergements {
@@ -857,6 +851,7 @@ html,body {
     .carteHebergement {
         width: 100%;
         margin-bottom: 50px;
+        padding: 0%;
     }
     .detailsCarteHebergement {
         min-height: auto;
@@ -915,14 +910,14 @@ html,body {
         width: auto;
         border: none;
     }
-    .recherche {
-        width: 350px;
-    }
     .buttonSearch {
         width: 50px;
         border-radius: 15px;
         border-bottom: 1px solid #f2f2f2;
         border-top:  1px solid #f2f2f2;
+    }
+    .paddingSearch {
+        padding-left: 0;
     }
     .descktopNone {
         display: block;
@@ -957,32 +952,44 @@ html,body {
         background-color: white;
     }
     .mobileTitreParagraphes {
-        padding-left: 5%;
+        padding-left: 1em;
     }
-    .footer {
+    footer .flexBetween {
         flex-direction: column;
+        justify-content: flex-start;
         align-items: flex-start;
+        padding: 1em;
+    }
+    .tailleBlocFooter {
         height: auto;
-        padding-left: 20px;
     }
     .margeBlocFooter1 {
-        margin-left: 0%;
-        margin-top: 50px;
+        margin-left: 0;
     }
+    .dimensionLien:nth-child(4) {
+        order: 2;
+        width: 40%;
+        justify-content: center;
+     }
+    .dimensionLien:nth-child(2) {
+        order: 3;
+        justify-content: center;
+        margin-left: 0;
+    }
+    .dimensionLien:nth-child(3) {
+        order: 4;
+        justify-content: center;
+    }
+    .dimensionLien.flexCentre {
+        justify-content: center;
+        flex-wrap: wrap;
+        }
 }
 @media only screen and (max-width: 459px) {
    .cubeHebergements {
     width: 100%;
     margin-bottom: 1em;
 }
-    .tailleLiens {
-        flex-direction: row;
-    }
-    .tailleLiensHA {
-        order: 1;
-        width: 100%;
-        margin-left: 0%;
-    }
     .filtresWrap {
         flex-direction: column;
         align-items: flex-start;
@@ -1121,7 +1128,7 @@ html,body {
         background-color: white;
     }
     .mobileTitreParagraphes {
-        padding-left: 5%;
+        padding-left: 0;
     }
     .footer {
         flex-direction: column;
@@ -1132,4 +1139,22 @@ html,body {
     .margeBlocFooter1 {
         margin-left: 0%;
     }
+    .dimensionLien:nth-child(4) {
+        order: 2;
+        width: 40%;
+        justify-content: center;
+     }
+    .dimensionLien:nth-child(2) {
+        order: 3;
+        justify-content: center;
+    }
+    .dimensionLien:nth-child(3) {
+        order: 4;
+        justify-content: center;
+    }
+    .dimensionLien.flexCentre {
+
+        justify-content: center;
+        flex-wrap: wrap;
+        }
 }
