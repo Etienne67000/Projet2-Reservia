@@ -471,63 +471,7 @@ span > i {
     width: 1401px;
     margin: auto;
   }
-  .tailleNav {
-    height: auto;
-}
-.tailleLiens {
-    width: 100%;
-  }
-.dimensionLien:nth-child(2) {
-    margin-left: 60%;
-}
-.dimensionLien {
-      width: 100%;
-      height: 99px; 
-  }
-.fas.fa-chart-line.fa-2x {
-    margin-bottom: 10px;
-}
-    .blocPopulaires {
-        padding: 20px;
-    }
-    .cartePopulaires {
-        width: 48%;
-    }
-    .tabletteTailleTitrePop {
-        margin-top: 0%;
-    }
-    #hebergements {
-        flex-direction: column-reverse;
-        width: 100%;
-    }
-    .tailleBlocPopulaires {
-        flex: none;
-        width: 90%;
-        margin-left: 0%;
-        padding: 5%;
-    }
-    .tailleBlocHebergements {
-        flex: none;
-        width: 90%;
-        margin-right: 0;
-        margin-top: 50px;
-        padding: 5%;
-    }
-    .carteHebergement {
-        height: auto;
-    }
-    .activites {
-        margin-top: 50px;
-        margin-bottom: 50px;
-      }
-      .blocActivites {
-        width: 100%;
-        height: 600px;
-      }
-      .blocActivites2356 {
-        width: 23%;
-        height: 600px;
-      }
+
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1400px) {
