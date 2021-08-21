@@ -496,16 +496,6 @@ span > i {
     margin-top: 50px;
     margin-bottom: 40px;
 }
-    .blocPopulaires {
-        padding: 20px;
-    }
-    .cartePopulaires {
-        width: 100%;
-    }
-    .tabletteTailleTitrePop {
-        margin-top: 0%;
-    }
-
 }
 
 @media only screen and (min-width: 990px) and (max-width: 1200px) {
