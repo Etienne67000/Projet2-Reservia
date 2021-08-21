@@ -505,34 +505,7 @@ span > i {
     .tabletteTailleTitrePop {
         margin-top: 0%;
     }
-    #hebergements {
-        flex-direction: column-reverse;
-        width: 100%;
-    }
-    .tailleBlocPopulaires {
-        flex: none;
-        width: 90%;
-        margin-left: 0%;
-        padding: 5%;
-    }
-    .tailleBlocHebergements {
-        flex: none;
-        width: 100%;
-        margin-right: 0;
-        margin-top: 50px;
-        padding: 5%;
-    }
-    .carteHebergement {
-        height: auto;
-    }
-    .blocActivites2356 {
-        width: 23%;
-        height: 600px;
-    }
-    .blocActivites {
-        width: 90%;
-        height: 600px;
-    }
+
 }
 
 @media only screen and (min-width: 990px) and (max-width: 1200px) {
