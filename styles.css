@@ -471,6 +471,63 @@ span > i {
     width: 1401px;
     margin: auto;
   }
+  .tailleNav {
+    height: auto;
+}
+.tailleLiens {
+    width: 100%;
+  }
+.dimensionLien:nth-child(2) {
+    margin-left: 60%;
+}
+.dimensionLien {
+      width: 100%;
+      height: 99px; 
+  }
+.fas.fa-chart-line.fa-2x {
+    margin-bottom: 10px;
+}
+    .blocPopulaires {
+        padding: 20px;
+    }
+    .cartePopulaires {
+        width: 48%;
+    }
+    .tabletteTailleTitrePop {
+        margin-top: 0%;
+    }
+    #hebergements {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .tailleBlocPopulaires {
+        flex: none;
+        width: 90%;
+        margin-left: 0%;
+        padding: 5%;
+    }
+    .tailleBlocHebergements {
+        flex: none;
+        width: 90%;
+        margin-right: 0;
+        margin-top: 50px;
+        padding: 5%;
+    }
+    .carteHebergement {
+        height: auto;
+    }
+    .activites {
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+      .blocActivites {
+        width: 100%;
+        height: 600px;
+      }
+      .blocActivites2356 {
+        width: 23%;
+        height: 600px;
+      }
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1400px) {
@@ -478,39 +535,134 @@ span > i {
     width: 1400px;
     margin: auto;
   }
+  .dimensionLien:nth-child(2) {
+    margin-left: 60%;
+}
+.tailleLiens {
+    width: 90%;
+}
+.fas.fa-chart-line.fa-2x {
+    margin-bottom: 10px;
+}
+.filtres {
+    display: flex;
+    align-items: center;
+}
+.margFiltres {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+    .blocPopulaires {
+        padding: 20px;
+    }
+    .cartePopulaires {
+        width: 100%;
+    }
+    .tabletteTailleTitrePop {
+        margin-top: 0%;
+    }
+    #hebergements {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .tailleBlocPopulaires {
+        flex: none;
+        width: 90%;
+        margin-left: 0%;
+        padding: 5%;
+    }
+    .tailleBlocHebergements {
+        flex: none;
+        width: 100%;
+        margin-right: 0;
+        margin-top: 50px;
+        padding: 5%;
+    }
+    .carteHebergement {
+        height: auto;
+    }
+    .blocActivites2356 {
+        width: 23%;
+        height: 600px;
+    }
+    .blocActivites {
+        width: 90%;
+        height: 600px;
+    }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
   .container-main {
     width: 1200px;
     margin: auto;
   }
-
-    .carteHebergement {
-        min-height: 150px;
-    }
-    .parentBlocHebergements {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .tailleBlocHebergements {
-        min-height: auto;
-        padding: 20px;
+  .dimensionLien:nth-child(2) {
+    margin-left: 35%;
+}
+.fas.fa-chart-line.fa-2x {
+    margin-bottom: 10px;
+}
+    .filtresWrap {
+        flex-direction: column;
+        align-items: flex-start;
     }
     .blocPopulaires {
         padding: 20px;
     }
+    .cartePopulaires {
+        width: 48%;
+    }
     .tabletteTailleTitrePop {
         margin-top: 0%;
+    }
+    #hebergements {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .tailleBlocPopulaires {
+        flex: none;
+        width: 90%;
+        margin-left: 0%;
+        padding: 5%;
+    }
+    .tailleBlocHebergements {
+        flex: none;
+        width: 90%;
+        margin-right: 0;
+        margin-top: 50px;
+        padding: 5%;
+    }
+    .carteHebergement {
+        height: auto;
+        width: 30%;
+        height: auto;
+        background-color: white;
+        padding: 1%;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px 1px #f2f2f2;
+        margin: 7px;
+    }
+    .blocActivites2356 {
+        width: 23%;
+        height: 600px;
+    }
+    .blocActivites {
+        width: 98%;
+        height: 600px;
     }
 }
 
 @media only screen and (min-width: 771px) and (max-width: 991px) {
     .container-main {
-        width: 991px;
+        width: 100%;
         margin: auto;
   }
+  .dimensionLien:nth-child(2) {
+    margin-left: 35%;
+}
+.fas.fa-chart-line.fa-2x {
+    margin-bottom: 10px;
+}
     .filtresWrap {
         flex-direction: column;
         align-items: flex-start;
@@ -545,6 +697,7 @@ span > i {
         height: auto;
     }
 }
+
 
 @media only screen and (min-width: 601px) and (max-width: 771px) {
    .container-main {
@@ -627,6 +780,190 @@ span > i {
         margin-left: 0%;
     }
 }
+@media only screen and (min-width: 578px) and (max-width: 771px) {
+    .cubeHebergements {
+      width: 47%;
+      margin: .5em;
+  }
+      .filtresWrap {
+          flex-direction: column;
+          align-items: flex-start;
+      }
+      .blocPopulaires {
+          padding: 20px;
+      }
+      .tabletteTailleTitrePop {
+          margin-top: 0%;
+      }
+      #hebergements {
+          flex-direction: column-reverse;
+          width: 100%;
+      }
+      #hebergements > .flexAround {
+          display: flex;
+          justify-content: space-around;
+        }
+      .tailleBlocPopulaires {
+          flex: none;
+          width: 90%;
+          margin-left: 0%;
+          padding: 5%;
+      }
+      .tailleBlocHebergements {
+          flex: none;
+          width: 90%;
+          margin-right: 0;
+          margin-top: 50px;
+          padding: 0;
+          height: 0%;
+      }
+      .parentBlocHebergements {
+          flex-direction: column;
+          min-height: auto;
+      }
+      .carteHebergement {
+          width: 100%;
+          margin-bottom: 50px;
+          padding: 0%;
+      }
+      .detailsCarteHebergement {
+          min-height: auto;
+      }
+      .carteHebergement:hover {
+          cursor: pointer;
+          transform: scale(1.05);
+         }
+      .blocActivites {
+          flex-direction: column;
+          height: auto;
+          padding: 5%;
+          width: 90%;
+      }
+      .carteActivites {
+          width: 100%;
+          margin-bottom: 50px;
+      }
+      .blocActivites2356 {
+          width: 100%;
+          height: auto;
+      }
+      .carteActivites2356 {
+          margin-bottom: 50px;
+      }
+      .carteActivites:hover {
+          cursor: pointer;
+          transform: scale(1.03);
+        }
+      .imgActivites1, 
+      .imgActivites2, 
+      .imgActivites3, 
+      .imgActivites4, 
+      .imgActivites5,
+      .imgActivites6 {
+        height: 200px;
+      }
+      .tailleLiensMobile {
+          width: 50%;
+          border-top: none;
+          border-bottom: 5px solid #f2f2f2;
+      }
+      .tailleLiens {
+          width: 100%;
+          flex-direction: row;
+          flex-wrap: wrap;
+      }
+      .tailleLiensMobile:hover {
+          border-top: 0;
+          border-bottom: 5px solid #0065fc;
+      }
+      .titreMobile  {
+          font-size: x-large;
+      }
+      .bordureSearch {
+          width: auto;
+          border: none;
+      }
+      .buttonSearch {
+          width: 50px;
+          border-radius: 15px;
+          border-bottom: 1px solid #f2f2f2;
+          border-top:  1px solid #f2f2f2;
+      }
+      .paddingSearch {
+          padding-left: 0;
+      }
+      .descktopNone {
+          display: block;
+      }
+      .mobileNone {
+          display: none;
+      }
+      .margFiltres {
+          padding-left: 5%;
+      }
+      .mobileEconomiques {
+          margin-right: 5px;
+      }
+      .mobileFamiliales {
+          margin-right: 0;
+      }
+      .texteFiltres {
+          padding-left: 10px;
+          padding-right: 10px;
+      }
+      .info {
+          padding-left: 5%;
+      }
+      html, body {
+          margin: 0;
+          padding: 0;
+      }
+      .blocPopulaires {
+          border-radius: 0;
+      }
+      .blocHebergements {
+          background-color: white;
+      }
+      .mobileTitreParagraphes {
+          padding-left: 1em;
+      }
+      footer .flexBetween {
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          padding: 1em;
+      }
+      .tailleBlocFooter {
+          height: auto;
+      }
+      .margeBlocFooter1 {
+          margin-left: 0;
+      }
+      .margeLiensFooter {
+          margin-top: 0;
+      }
+      .dimensionLien:nth-child(4) {
+          order: 2;
+          width: 40%;
+          justify-content: center;
+       }
+      .dimensionLien:nth-child(2) {
+          order: 3;
+          justify-content: center;
+          margin-left: 0;
+      }
+      .dimensionLien:nth-child(3) {
+          order: 4;
+          justify-content: center;
+      }
+      .dimensionLien.flexCentre {
+          justify-content: center;
+          flex-wrap: wrap;
+          }
+      span > i {
+              color: white;
+      }
+  }
 
 @media only screen and (min-width: 580px) and (max-width: 600px) {
    .container-main {
