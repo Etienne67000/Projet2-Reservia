@@ -1397,9 +1397,6 @@ span > i {
     .mobileNone {
         display: none;
     }
-    .margFiltres {
-        padding-left: 5%;
-    }
     .mobileEconomiques {
         margin-right: 5px;
     }
@@ -1424,7 +1421,7 @@ span > i {
         background-color: white;
     }
     .mobileTitreParagraphes {
-        padding-left: 0;
+        padding-left: 5%;
     }
     .footer {
         flex-direction: column;
