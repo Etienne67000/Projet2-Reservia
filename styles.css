@@ -488,7 +488,10 @@ span > i {
     margin-bottom: 10px;
 }
     .carteHebergement {
-        height: auto;
+    padding: 1%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    margin: 4px;
     }
     .activites {
         margin-top: 50px;
@@ -567,7 +570,7 @@ span > i {
 
 @media only screen and (min-width: 990px) and (max-width: 1200px) {
   .container-main {
-    width: 1200px;
+    width: 100%;
     margin: auto;
   }
   .dimensionLien:nth-child(2) {
@@ -584,7 +587,6 @@ span > i {
         padding: 20px;
     }
     .cartePopulaires {
-        width: 48%;
     }
     .tabletteTailleTitrePop {
         margin-top: 0%;
@@ -602,13 +604,14 @@ span > i {
     .tailleBlocHebergements {
         flex: none;
         width: 90%;
+        height: auto;
         margin-right: 0;
         margin-top: 50px;
         padding: 5%;
     }
     .carteHebergement {
         height: auto;
-        width: 30%;
+        width: 100%;
         height: auto;
         background-color: white;
         padding: 1%;
