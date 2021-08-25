@@ -323,9 +323,10 @@ span > i {
   .detailsCartePopulaires {
     width: 60%;
     padding-left: 5%;
+    height: 160px;
   }
   .detailsCartePopulaires > div {
-    margin-top: 60px;
+    margin-top: 50px;
   }
   .imgPopulaires1 {
     background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
