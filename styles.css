@@ -918,10 +918,9 @@ span > i {
       .mobileTitreParagraphes {
           padding-left: 1em;
       }
-      }
+      
 .tailleBlocHebergements > h2 {
      margin-top: -3px;
-
 }
       footer .flexBetween {
           flex-direction: column;
