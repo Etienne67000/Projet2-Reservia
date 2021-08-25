@@ -201,10 +201,6 @@ span > i {
         border-radius: 10px;
         width: 70%;
 }
-.tailleBlocHebergements > h2 {
-        margin-top: -3px;
-        margin-bottom: -18px;
-}
 .tailleBlocPopulaires {
     width: 30%;
     margin-left: 20px;
@@ -556,7 +552,9 @@ span > i {
         width: 100%;
         margin-right: 0;
         margin-top: 50px;
-        padding: 5%;
+    }
+    .tailleBlocHebergements > h2 {
+        margin-left: 20px;
     }
     .carteHebergement {
         margin: 0 auto;
@@ -914,6 +912,7 @@ span > i {
     }  
     .tailleBlocHebergements > h2 {
         margin-top: -3px;
+        margin-bottom: 10px
     }
     footer .flexBetween {
         flex-direction: column;
