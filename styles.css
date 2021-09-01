@@ -224,7 +224,7 @@ span > i {
     background-color: white;
     border-radius: 20px;
     /* j'ai rajouter une box pour voir les cartes en version mobile et desktop */
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    box-shadow: 5px 5px 5px 1px #e3e2e2;
     margin: 0 auto;
     padding: .5em;
     margin-top: 1em;
@@ -533,6 +533,7 @@ span > i {
     }
     .cartePopulaires {
         width: 100%;
+        box-shadow: 5px 5px 5px 1px #e3e2e2;
     }
     .tabletteTailleTitrePop {
         margin-top: 0%;
@@ -560,6 +561,7 @@ span > i {
         margin: 0 auto;
         padding: .5em;
         margin-top: 1em;
+        box-shadow: 5px 5px 5px 1px #e3e2e2;
     }
     .blocActivites2356 {
         width: 23%;
@@ -648,7 +650,7 @@ span > i {
         padding: 20px;
     }
     .cartePopulaires {
-        width: 48%;
+        width: 100%;
     }
     .tabletteTailleTitrePop {
         margin-top: 0%;
