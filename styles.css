@@ -508,14 +508,14 @@ span > i {
 
 @media only screen and (min-width: 1201px) and (max-width: 1400px) {
     .container-main {
-        width: 1400px;
+        width: 100%;
         margin: auto;
     }
     .dimensionLien:nth-child(2) {
         margin-left: 60%;
     }
     .tailleLiens {
-        width: 90%;
+        width: 100%;
     }
     .fas.fa-chart-line.fa-2x {
         margin-bottom: 10px;
@@ -553,6 +553,7 @@ span > i {
         width: 100%;
         margin-right: 0;
         margin-top: 50px;
+        padding-left: 0;
     }
     .tailleBlocHebergements > h2 {
         margin-left: 20px;
@@ -568,7 +569,7 @@ span > i {
         height: 600px;
     }
     .blocActivites {
-        width: 90%;
+        width: 98%;
         height: 600px;
     }
 }
