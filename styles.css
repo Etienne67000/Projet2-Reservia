@@ -1178,7 +1178,7 @@ span > i {
     .carteHebergement {
         width: 100%;
         margin-bottom: 50px;
-        padding: 0%;
+        padding: 1%;
     }
     .detailsCarteHebergement {
         min-height: auto;
@@ -1533,7 +1533,7 @@ span > i {
             color: white;
     }
 }
-@media only screen and (max-width: 296px) {
+@media only screen and (max-width: 356px) {
     .detailsCartePopulaires {
         width: 63%;
         padding-left: 5%;
@@ -1552,7 +1552,26 @@ span > i {
         margin-bottom: 15px;
         margin-left: 1px;
     }
-    .margFiltres {
-        padding-left: 0%;
+    .filtres {
+        width: 100%;
     }
+    .tailleFiltres {
+        border: 2px solid #f2f2f2;
+        height: 50px;
+        border-radius: 30px;
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+    .mobileEconomiques {
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+    .mobileFamiliales {
+        margin-right: 0;
+    }
+    .texteFiltres {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
 }
