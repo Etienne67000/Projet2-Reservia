@@ -1533,3 +1533,26 @@ span > i {
             color: white;
     }
 }
+@media only screen and (max-width: 296px) {
+    .detailsCartePopulaires {
+        width: 63%;
+        padding-left: 5%;
+        margin-top: 0;
+    }
+    .detailsCartePopulaires > div {
+        margin-top: 10px;
+    }
+    .tailleBlocPopulaires {
+        flex: none;
+        width: 100%;
+        margin-left: 0%;
+        padding: 2%;
+    }
+    .fas.fa-chart-line.fa-2x {
+        margin-bottom: 15px;
+        margin-left: 1px;
+    }
+    .margFiltres {
+        padding-left: 0%;
+    }
+}
